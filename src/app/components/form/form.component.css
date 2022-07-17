@@ -1,0 +1,42 @@
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+
+.category {
+  color: black;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.cancelBtn {
+  background-color: #d5d5d5 !important;
+  width: 48.5%;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.okBtn {
+  background-color: #3dafda !important;
+  color: white;
+  text-transform: uppercase;
+  width: 48.5%;
+}
+
+.mat-button-disabled {
+  background-color: #d5d5d5 !important;
+}
+
+.mat-button {
+  line-height: 47px;
+}
+
+.mat-dialog-actions {
+  margin-bottom: -15px;
+}

@@ -1,0 +1,6 @@
+<mat-card>
+  <h3>{{project.title}}</h3>
+  <mat-card-content>
+    <mat-checkbox color="primary" [checked]="todo.isCompleted" (change)="todoComplete(todo, $event)" class="example-margin" [class.complete]="todo.isCompleted" *ngFor="let todo of todos">{{todo.text}}</mat-checkbox>
+  </mat-card-content>
+</mat-card>

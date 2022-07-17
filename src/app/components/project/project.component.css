@@ -1,0 +1,21 @@
+.complete {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+  border-bottom: 1px solid lightgray;
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+mat-checkbox {
+  margin-bottom: 2%;
+}
+
